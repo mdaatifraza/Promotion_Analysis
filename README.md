@@ -1,4 +1,8 @@
-# Promotion_Analysis
+# ATLIQ MART PROMOTION ANALYSIS
+
+# Business Request
+
+## Identify high value with base price > 500 and promo type of BOGOF (buy one get one free)
 ```
 with cte as 
 	(SELECT 
@@ -10,4 +14,4 @@ ON
 SELECT * FROM cte
 WHERE base_price > 500 and promo_type = "BOGOF"
 ```
-## kfheiyejrkejhierre rerere
+
