@@ -8,3 +8,4 @@ ON
 	p.product_code = f.product_code)
 SELECT * FROM cte
 WHERE base_price > 500 and promo_type = "BOGOF"
+kfheiyejrkejhierre rerere
