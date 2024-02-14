@@ -1,4 +1,5 @@
 # Promotion_Analysis
+```
 with cte as 
 	(SELECT 
 	DISTINCT(p.product_name),f.promo_type,f.base_price
